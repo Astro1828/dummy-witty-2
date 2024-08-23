@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Witter - New Post</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Witter</h1>
+        <button onclick="cancelPost()">Cancel</button>
+        <button onclick="postContent()">Post</button>
+    </div>
+    <div class="container">
+        <textarea id="postText" placeholder="What's on your mind?" rows="5"></textarea>
+        <input type="file" id="postImage" accept="image/*">
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
